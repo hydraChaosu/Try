@@ -29,6 +29,13 @@ function App() {
           </li>
         </ul>
       </nav>
+      <Route path="/" exact component={Index} />
+      <Route path="/audio" component={Audio} />
+      <Route path="/video" component={Video} />
+      <Route path="/forms" component={Forms} />
+      <Route path="/redux" component={Redux} />
+      <Route path="/cloud" component={Cloud} />
+      <Route path="/:id" component={Paramsy} />
     </Router>
   );
 }
