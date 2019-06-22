@@ -3,10 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "final-form": "^4.16.1",
+    "final-form-focus": "^1.1.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-final-form": "^6.3.0",
+    "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-sound": "^1.2.0",
+    "redux": "^4.0.1",
+    "video-react": "^0.13.9"
   },
   "scripts": {
     "start": "react-scripts start",
