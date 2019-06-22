@@ -11,10 +11,7 @@ const MyRedux = () => {
     id => dispatch({ type: types.REMOVE_ITEM, id }),
     [dispatch]
   );
-  const addItem = useCallback(
-    text => dispatch({ type: types.ADD_ITEM, text }),
-    [dispatch]
-  );
+  const addItem = text => dispatch({ type: types.ADD_ITEM, text });
 
   const items = useSelector(state => state.items);
   const list = items.map(item => {
