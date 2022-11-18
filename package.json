@@ -10,7 +10,7 @@
     "react-final-form": "^6.3.0",
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-sound": "^1.2.0",
     "redux": "^4.0.1",
     "video-react": "^0.13.9"
